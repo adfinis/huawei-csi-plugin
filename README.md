@@ -6,7 +6,7 @@ A docker image containining the [Huawei CSI Plugin](https://github.com/Huawei/eS
 
 Huawei itself does not provide a docker image or a helm chart. Just the source code and some yaml files.
 
-They do not publish an image because of a hash within the source code which is used to encrypt passwords. This may sound like a nice feature but is an overkill in our opinion. More informations on this are written in the [GitHub issue](https://github.com/Huawei/eSDK_K8S_Plugin/issues/9).
+They do not publish an image because of a hash within the source code which is used to encrypt passwords. This may sound like a nice feature but is an overkill in our opinion. More informations on this are written in the [GitHub issue](https://github.com/Huawei/eSDK_K8S_Plugin/issues/16).
 
 ### Deployment with Helm
 
