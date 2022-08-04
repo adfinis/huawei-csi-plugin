@@ -25,7 +25,7 @@ jobs:
       - name: Prepare Image Metadata
         id: prep
         run: |
-          DOCKER_IMAGE=ghcr.io/adfinis-sygroup/huawei-csi-plugin
+          DOCKER_IMAGE=ghcr.io/adfinis/huawei-csi-plugin
           VERSION=noop
           if [ "${{ github.event_name }}" = "schedule" ]; then
             VERSION=nightly
