@@ -1,4 +1,4 @@
-FROM busybox:1.34.1-glibc
+FROM busybox:1.36.0-glibc
 
 LABEL org.opencontainers.image.authors="Adfinis AG <https://adfinis.com>"
 LABEL org.opencontainers.image.vendor="Adfinis"
