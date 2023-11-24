@@ -2,6 +2,13 @@
 
 A docker image containining the [Huawei CSI Plugin](https://github.com/Huawei/eSDK_K8S_Plugin)
 
+## :warning: This project is no longer being maintained :warning:
+
+We created this repository, because we wanted to have a place to share the code
+required to build a container image for the Huawei CSI integration.
+
+As we have no use for it anymore we're not going to maintain it going forward.
+
 ## Why?
 
 Huawei itself does not provide a container image or a helm chart. Just the source code and some yaml files.
